@@ -23,7 +23,7 @@ app.use(bodyParser.json());
 
 
  //jwt authentication
- app.post('/jwt',async(req,res)=>{
+ app.post('https://foodi-server-7z1l.onrender.com/jwt',async(req,res)=>{
    const user = req.body;
    const token = jwt.sign(user, process.env.ACCESS_SECRET_TOKEN,{
       expiresIn: '1hr'
