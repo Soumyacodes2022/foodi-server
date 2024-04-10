@@ -15,10 +15,11 @@ app.use(bodyParser.json());
 
  
  //mongoDB connect using Mongoose
- //UserName: flash_7439
- //Password: L0fbidpX4kewX49H
+ //UserName: flash_743977
+ //Password:  8YZiUL9HbdlkwqkY
+ 
 
- mongoose.connect(`mongodb+srv://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@foodi-cluster.3aqfpuy.mongodb.net/demo-foodi-client?retryWrites=true&w=majority`).then(console.log("Mongoose Connected Successfully.")).catch(error=>console.log(error));
+ mongoose.connect(`mongodb+srv://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@foodie-cluster.ipahdoh.mongodb.net/`).then(console.log("Mongoose Connected Successfully.")).catch(error=>console.log(error));
 
 
 
