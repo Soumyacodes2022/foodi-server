@@ -19,7 +19,7 @@ app.use(bodyParser.json());
  //Password:  8YZiUL9HbdlkwqkY
  
 
- mongoose.connect(`mongodb+srv://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@foodie-cluster.ipahdoh.mongodb.net/`).then(console.log("Mongoose Connected Successfully.")).catch(error=>console.log(error));
+ mongoose.connect(`mongodb+srv://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@foodie-cluster.ipahdoh.mongodb.net/foodi-deploy-db`).then(console.log("Mongoose Connected Successfully.")).catch(error=>console.log(error));
 
 
 
